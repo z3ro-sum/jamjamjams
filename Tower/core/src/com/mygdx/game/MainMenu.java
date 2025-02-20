@@ -34,7 +34,7 @@ public class MainMenu extends ScreenAdapter{
     }
     
     private void _SkinSetup(){
-        atlas = new TextureAtlas("assets/UI/Atlas/Btns.pack");
+        atlas = new TextureAtlas("UI/Atlas/Btns.pack");
         skin = new Skin(atlas);
         stage = new Stage();
         stage.clear();

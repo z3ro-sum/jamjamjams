@@ -80,7 +80,7 @@ public class FirstScreen implements Screen {
         constraintSolver = new btSequentialImpulseConstraintSolver();
         dynamicsWorld = new btDiscreteDynamicsWorld(dispatcher, broadphase, constraintSolver, collisionConfiguration);
         dynamicsWorld.setGravity(new Vector3(0, -15f, 0));
-        contactListener = new EContactListener(); 
+        //contactListener = new EContactListener(); 
         instances = new Array<>();
         
         /* Engine Debugs Init Only */
